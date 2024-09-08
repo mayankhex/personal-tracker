@@ -4,18 +4,15 @@
   width: 100vw;
   background-color: #282c34;
 }
-
 .App-logo {
   height: 20vmin;
   pointer-events: none;
 }
-
 @media (prefers-reduced-motion: no-preference) {
   .App-logo {
     animation: App-logo-spin infinite 1.5s linear;
   }
 }
-
 @keyframes App-logo-spin {
   from {
     transform: rotate(0deg);
@@ -34,6 +31,18 @@
   height: 70vh;
 }
 
+.bold-btn {
+  font-weight: bold;
+  font-size: 1.2rem;
+  padding: 0.25rem 0.5rem;
+  margin: 1rem 0.4rem;
+}
+
+.bold-btn:hover {
+  filter: brightness(85%);
+  box-shadow: 0px 1px 0px 1px whitesmoke;
+}
+
 h2 {
   color: burlywood;
 }
@@ -41,7 +50,6 @@ h2 {
 h6 {
   margin: 5px;
   font-size: 14px;
-  text-decoration: none;
   color: #61dafb;
 }
 
@@ -54,24 +62,4 @@ button {
 button:hover {
   /* cursor: progress; // COOL */
   border: 2px solid black;
-}
-
-.glass-btn {
-  background: green;
-  color: white;
-  font-size: 1.25rem;
-}
-
-.glass-btn:hover {
-  background: rgb(1, 81, 1);
-}
-
-.glass-btn-remove {
-  background: red;
-  color: white;
-  font-size: 1.25rem;
-}
-
-.glass-btn-remove:hover {
-  background: darkred;
 }

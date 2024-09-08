@@ -1,17 +1,18 @@
 import { NavLink } from 'react-router-dom';
 
+const navStyle = {
+  display: 'flex',
+  justifyContent: 'center',
+  flexDirection: 'row',
+  color: 'white',
+  marginBottom: '3rem',
+}
+
 function NavigationBar() {
-  const styles = {
-    display: 'flex',
-    justifyContent: 'center',
-    flexDirection: 'row',
-    color: 'white',
-    marginBottom: '30px',
-  }
   return (
-    <div style={styles}>
-      <NavLink to="/personal-tracker"><button className='pd-10'>Home</button></NavLink>
-      <NavLink to="/personal-tracker/about"><button className='pd-10'>About</button></NavLink>
+    <div style={navStyle}>
+      <NavLink to="/"><button className='bold-btn'>Home</button></NavLink>
+      <NavLink to="/about"><button className='bold-btn'>About</button></NavLink>
     </div>
   )
 }
