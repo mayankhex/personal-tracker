@@ -1,16 +1,16 @@
 {
   "files": {
-    "main.css": "/personal-tracker/static/css/main.3f89635e.css",
-    "main.js": "/personal-tracker/static/js/main.5b78bf3d.js",
+    "main.css": "/personal-tracker/static/css/main.5a296637.css",
+    "main.js": "/personal-tracker/static/js/main.5fab5035.js",
     "static/js/453.f5b8c2be.chunk.js": "/personal-tracker/static/js/453.f5b8c2be.chunk.js",
     "static/media/logo.svg": "/personal-tracker/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
     "index.html": "/personal-tracker/index.html",
-    "main.3f89635e.css.map": "/personal-tracker/static/css/main.3f89635e.css.map",
-    "main.5b78bf3d.js.map": "/personal-tracker/static/js/main.5b78bf3d.js.map",
+    "main.5a296637.css.map": "/personal-tracker/static/css/main.5a296637.css.map",
+    "main.5fab5035.js.map": "/personal-tracker/static/js/main.5fab5035.js.map",
     "453.f5b8c2be.chunk.js.map": "/personal-tracker/static/js/453.f5b8c2be.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.3f89635e.css",
-    "static/js/main.5b78bf3d.js"
+    "static/css/main.5a296637.css",
+    "static/js/main.5fab5035.js"
   ]
 }
