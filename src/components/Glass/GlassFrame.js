@@ -10,7 +10,7 @@ const labelStyle = {
   left: '50%',
 }
 
-export default function Glass(props) {
+export default function GlassFrame(props) {
   return (
     <div style={{position: 'relative'}}>
       <GlassSvg isEmpty={props.isEmpty} yAxis={props.height} waterBodyColor={'#a5b7d0'} waterLayerColor={'#d6e5f6'}/>

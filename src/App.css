@@ -1,9 +1,3 @@
-.App {
-  text-align: center;
-  height: 100vh;
-  width: 100vw;
-  background-color: #282c34;
-}
 .App-logo {
   height: 20vmin;
   pointer-events: none;
@@ -37,14 +31,13 @@
   padding: 0.25rem 0.5rem;
   margin: 1rem 0.4rem;
 }
-
 .bold-btn:hover {
   filter: brightness(85%);
   box-shadow: 0px 1px 0px 1px whitesmoke;
 }
 
-h2 {
-  color: burlywood;
+.mt-0 {
+  margin-top: 0px;
 }
 
 h6 {

@@ -1,6 +1,6 @@
 import { useEffect, useState } from 'react';
 import axios from 'axios';
-import logo from '../logo.svg';
+import logo from '../../logo.svg';
 import UserDetail from './UserDetail';
 import NetworkLoader from './NetworkLoader';
 
